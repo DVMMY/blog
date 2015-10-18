@@ -1,0 +1,234 @@
+* {
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #404040;
+}
+
+.container {
+	width: 60%;
+}
+
+p {
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #0085a1;
+}
+
+/* HEADER */
+
+header {
+	background-image: url(http://hdw.datawallpaper.com/nature/dark-shades-of-blue-hd-wallpaper-332258.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	color: #fff;
+  	margin-bottom: 40px;
+}
+
+.navbar {
+	font-size: 12px;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+	border: none;
+	margin: 0;
+}
+
+.navbar-default {
+	box-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #DCDBD9;
+}
+
+.navbar-brand {
+	text-transform: none;
+}
+
+.jumbotron {
+	color: #fff;
+	background: transparent;
+  	text-align: center;
+}
+
+.header-text {
+	padding: 50px 0 100px 0;
+}
+
+.jumbotron h1 {
+	font-size: 80px;
+	font-weight: 800;
+}
+
+.jumbotron hr {
+	width: 10%;
+	margin-bottom: 20px;
+}
+
+/* MAIN SECTION */
+
+.post-summary {
+	margin-top: 40px;
+}
+
+.post-summary a {
+	text-decoration: none;
+}
+
+.post-summary h2 {
+	font-size: 36px;
+	font-weight: 800;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.post-summary h3 {
+	font-size: 24px;
+}
+
+.post-summary p {
+	font-size: 18px;
+	font-style: italic;
+	color: #808080;
+	margin-top: 0px;
+}
+
+.post-summary p a {
+	color: #404040;
+}
+
+.post-summary p a:hover {
+	color: #0085A1;
+}
+
+.older-posts {
+	float: right;
+	font-size: 14px;
+	font-weight: 800;
+	padding: 10px 25px;
+	border: 1px solid #ddd;
+	margin: 10px 0 15px 0;
+}
+
+.older-posts:hover {
+	color: #fff;
+	background-color: #0085A1;
+	text-decoration: none;
+}
+
+/* POST PAGE */
+
+.post-title {
+	text-align: left;
+	padding: 50px 0 70px 0;
+}
+
+.post-title h1 {
+	font-size: 55px;
+}
+
+.post-title h2 {
+	margin: 0 auto;
+}
+
+.post-title a {
+	color: #fff;
+	margin-top: 5px;
+}
+
+/* FORM */
+
+form {
+	margin: 40px auto;
+}
+
+/* FOOTER */
+
+footer {
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+
+footer .social {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+footer .social a {
+	margin: 0 15px; 
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) { 
+	.container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/* HEADER TEXT WITHIN JUMBOTRON */
+
+	.header-text {
+		padding: 100px 0 50px;
+	}
+
+	.post-title {
+		padding: 30px 0 40px;
+	}
+
+	.header-text h1, .post-title h1 {
+		font-size: 50px;
+	}
+
+	/* COLLAPSED NAVBAR */
+
+	.navbar-default {
+		border-radius: 0;
+	}
+
+	.navbar {
+		background: #F8F8F8;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #777;
+	}
+
+	.navbar-default .navbar-toggle {
+		background-color: #ddd;
+	}
+
+	.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+		color: #777;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+		color: #000;
+	}
+	
+}
